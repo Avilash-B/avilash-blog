@@ -415,7 +415,7 @@ const blogPosts = {
 
 export default function BlogPost({ params }: { params: { slug: string } }) {
   const { toast } = useToast()
-  const post = blogPosts[params.slug]
+  const post = blogPosts[params.slug as keyof typeof blogPosts]
 
   useEffect(() => {
     if (!post) {
@@ -622,7 +622,7 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
               </Link>
             </div>
             <div className="border-t border-gray-800 mt-8 pt-6 text-sm text-gray-400">
-              <p>© {new Date().getFullYear()} NeuralPulse. All rights reserved.</p>
+              <p> 2025 NeuralPulse. All rights reserved.</p>
             </div>
           </div>
         </div>
