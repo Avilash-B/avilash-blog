@@ -1,6 +1,6 @@
-# NeuralPulse - AI Blog
+# AvilashPulse - AI Blog
 
-NeuralPulse is a modern, responsive blog focused on AI, GenAI, Computer Vision, and Deep Learning topics. This project is built with Next.js and designed to be deployed on GitHub Pages.
+AvilashPulse is a modern, responsive blog focused on AI, GenAI, Computer Vision, Tech and Deep Learning topics. This project is built with Next.js and designed to be deployed on GitHub Pages.
 
 ## Features
 
@@ -22,5 +22,5 @@ NeuralPulse is a modern, responsive blog focused on AI, GenAI, Computer Vision, 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/neural-pulse.git
-   cd neural-pulse
+   git clone https://github.com/avilash-b/avilash-blog.git
+   cd avilash-blog
